@@ -309,12 +309,12 @@
 				<div class="row">
 					<div class="col-md-6" x-data="{ skills: [
 						{name:'Java', value: 90},
+						{name:'Springboot', value: 90}, 
 						{name:'NodeJS', value: 80}, 
 						{name:'NestJS', value: 90}, 
-						{name:'Springboot', value: 90}, 
 						{name:'Python', value: 70}, 
-						{name:'Docker', value: 85}, 
-						{name:'K8s', value: 95}, 
+						{name:'Docker', value: 95}, 
+						{name:'K8s', value: 80}, 
 						{name:'MongoDB', value: 85}, 
 						{name:'SQL', value: 75},
 						{name:'Jenkins', value: 78}] }">
@@ -332,12 +332,13 @@
 							</div>
 						</template>
 					</div>
-					<div class="col-md-6" x-data="{ skills: [{name:'HTML5/CSS3', value: 100}, 
-					{name:'JS', value: 90}, 
-					{name:'Typescript', value: 90}, 
-					{name:'SASS', value: 85}, 
-					{name:'Angular', value: 95}, 
-					{name:'React', value: 70}] }">
+					<div class="col-md-6" x-data="{ skills: [
+						{name:'HTML5/CSS3', value: 100}, 
+						{name:'JS', value: 90}, 
+						{name:'Typescript', value: 90}, 
+						{name:'SASS', value: 85}, 
+						{name:'Angular', value: 95}, 
+						{name:'React', value: 70}] }">
 						<template x-for="s in skills">
 							<div class="progress-wrap">
 								<h3><span class="name-left" x-text="s.name"></span><span class="value-right"
