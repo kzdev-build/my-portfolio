@@ -716,7 +716,9 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   display: table;
   overflow: hidden;
+  border-radius: 10px;
 }
+
 @media screen and (max-width: 768px) {
   .work {
     height: 400px;
